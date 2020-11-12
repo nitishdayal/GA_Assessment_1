@@ -1,0 +1,34 @@
+* {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  width: 82px;
+  height: 82px;
+  background-color: darkgray;
+  border: 1px solid darkgray;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: darkgray;
+}
+
+input {
+  border: 5px solid darkgray;
+  width: 4.5rem;
+  padding-left: 10px;
+}
+
+.inputs * {
+  border-radius: 10px;
+}
+
+.negative {
+  color: red;
+}
